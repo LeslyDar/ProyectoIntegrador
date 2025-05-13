@@ -1,64 +1,70 @@
 ============================================
-SIMULADOR DE SISTEMA OPERATIVO - RESUMEN
+SIMULADOR DE SISTEMA OPERATIVO
 ============================================
 
-Este proyecto implementa un simulador de sistema operativo orientado al aprendizaje de:
-- Planificación de procesos (FCFS y Round Robin)
-- Gestión de recursos (CPU y memoria)
-- Comunicación y sincronización entre procesos
-- Manejo de eventos y trazabilidad mediante logs
-Todo esto se controla desde una interfaz interactiva en consola (CLI) usando la librería 'rich'.
+1. NOMBRE DEL PROYECTO
+Simulador Interactivo de Sistema Operativo con Planificación y Comunicación
 
-------------------------
-FUNCIONALIDAD PRINCIPAL
-------------------------
+2. BREVE DESCRIPCIÓN DEL PROYECTO
+Simulador educativo que permite crear, planificar y gestionar procesos, recursos y comunicación entre procesos, utilizando algoritmos FCFS y Round Robin a través de una interfaz en consola.
 
-1. Procesos
-- Crear, suspender, reanudar y terminar procesos (con prioridad, memoria y tiempo de CPU).
-- Listado de procesos en tabla con estado, prioridad y recursos asignados.
+3. INFORMACIÓN DEL CURSO
+- Materia: Sistemas Operativos
+- Institución: [Nombre de tu universidad]
 
-2. Recursos
-- Asignación y liberación de CPU/memoria.
-- Visualización de recursos disponibles.
+4. SEMESTRE
+Primer semestre de 2025
 
-3. Planificación
-- Soporte para FCFS y Round Robin (con quantum configurable).
-- Simulación por ciclos con control de ejecución.
+5. PROFESOR(ES)
+[Nombre del profesor o profesores responsables]
 
-4. Comunicación
-- Envío y recepción de mensajes entre procesos.
-- Simulación de productor-consumidor con semáforos.
+6. INTEGRANTES DEL EQUIPO
+- [Nombre del integrante 1]
+- [Nombre del integrante 2]
+- [Nombre del integrante 3]
+- [Agregar más si aplica]
 
-5. Logs y Estado
-- Registro de eventos clave (creación, terminación, errores).
-- Vista general del estado del sistema: colas, CPU, memoria y algoritmo activo.
+--------------------------------------------
+FUNCIONALIDADES PRINCIPALES DEL CÓDIGO
+--------------------------------------------
 
-------------------------
-ESTRUCTURA DE MÓDULOS
-------------------------
+● Gestión de Procesos:
+  - Crear, suspender, reanudar y finalizar procesos.
+  - Visualizar procesos activos con sus estados y recursos asignados.
 
-- procesos.py: Manejo de procesos y su ciclo de vida.
-- recursos.py: Control de CPU y memoria del sistema.
-- planificador.py: Implementación de FCFS y Round Robin.
-- comunicacion.py: Mensajería entre procesos y sincronización.
-- logs.py: Registro y visualización de eventos.
-- cli.py: Interfaz de usuario con menú y visualización.
-- main.py: Coordinación general y bucle principal de simulación.
+● Planificación de Procesos:
+  - Algoritmos FCFS y Round Robin (con quantum configurable).
+  - Simulación cíclica de ejecución de procesos.
 
-------------------------
-EJECUCIÓN Y REQUISITOS
-------------------------
+● Gestión de Recursos:
+  - Asignación/liberación de CPU y memoria.
+  - Visualización del estado actual de los recursos del sistema.
 
-- Requiere Python 3.8+ y la librería 'rich'.
-Instalación:
-> pip install rich
+● Comunicación y Sincronización:
+  - Envío y recepción de mensajes entre procesos.
+  - Simulación del problema productor-consumidor usando semáforos.
 
-Ejecución:
-> python main.py
+● Interfaz de Usuario (CLI con 'rich'):
+  - Menú interactivo, tablas informativas y visualización del estado del sistema.
+  - Acceso a logs, mensajes y opciones de simulación.
 
-------------------------
-PROPÓSITO EDUCATIVO
-------------------------
+● Persistencia y Herramientas:
+  - Registro de eventos.
+  - Generación automática de procesos (opcional).
+  - Detección de interbloqueos (opcional).
 
-Este simulador fue diseñado para comprender cómo funciona un sistema operativo a nivel lógico, permitiendo experimentar con planificación, recursos, mensajes y sincronización en un entorno controlado y visual.
+--------------------------------------------
+REQUISITOS Y EJECUCIÓN
+--------------------------------------------
+● Requisitos:
+  - Python 3.8 o superior
+  - Librería 'rich' → Instalar con: `pip install rich`
+
+● Ejecución:
+  > python main.py
+
+--------------------------------------------
+PROPÓSITO
+--------------------------------------------
+Este proyecto busca facilitar el aprendizaje práctico de los conceptos de planificación, gestión de recursos y comunicación en sistemas operativos mediante una interfaz clara y simulaciones controladas.
 
