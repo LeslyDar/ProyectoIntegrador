@@ -10,20 +10,20 @@ Simulador educativo que permite crear, planificar y gestionar procesos, recursos
 
 3. INFORMACIÓN DEL CURSO
 - Materia: Sistemas Operativos
-- Institución: [Nombre de tu universidad]
+- Institución: Universidad Autonoma de Tamaulipas
 
 4. SEMESTRE
-Primer semestre de 2025
+Sexto semestre de 2025
 
 5. PROFESOR(ES)
-[Nombre del profesor o profesores responsables]
+Muñoz Quintero Dante Alfonso
 
 6. INTEGRANTES DEL EQUIPO
-- [Nombre del integrante 1]
-- [Nombre del integrante 2]
-- [Nombre del integrante 3]
-- [Agregar más si aplica]
-
+- Aguilar Gómez Lesly Dariana
+- Hernández Juárez José Ángel
+- Torres Alvidena Manuel De Jesús
+- Vega González Victor Itiel
+  
 --------------------------------------------
 FUNCIONALIDADES PRINCIPALES DEL CÓDIGO
 --------------------------------------------
